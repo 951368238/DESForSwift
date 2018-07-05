@@ -1,4 +1,10 @@
-# DESForSwift
+# DESForSwift 
+
+在 xxx-Bridging-Header.h 中要引入两个 oc 库
+```
+#import <CommonCrypto/CommonDigest.h>
+#import <CommonCrypto/CommonCrypto.h>
+```
 
 ```
 let dict = ["key":"value",
