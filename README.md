@@ -1,5 +1,5 @@
 # DESForSwift
-let dict = ["key":"value",
+>let dict = ["key":"value",
             "aaa":"bbbb",
             "haha":["1",
                     "2",
@@ -9,8 +9,10 @@ let dict = ["key":"value",
             "json":["key":"value"],
             "chinese":"测试"
             ] as [String : Any]
-let str = DesForSwift.encrypt(dict: dict)
-print(str)
+
+>let str = DesForSwift.encrypt(dict: dict)
+>print(str)
         
-let dic : Dictionary<String,Any> = DesForSwift.decrypt(string: str)
-print(dic)
+>let dic : Dictionary<String,Any> = DesForSwift.decrypt(string: str)
+>print(dic)
+`
